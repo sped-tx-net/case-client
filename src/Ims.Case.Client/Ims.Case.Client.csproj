@@ -9,4 +9,8 @@
     <RootNamespace>Ims.Case</RootNamespace>
   </PropertyGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RestSharp" Version="106.13.0" />
+  </ItemGroup>
 </Project>
