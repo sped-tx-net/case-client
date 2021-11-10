@@ -205,13 +205,13 @@ namespace Ims.Case.Api
         }
 
         /// <summary>
-        /// Gets or sets the configuration object..
+        /// Gets or sets the configuration object...
         /// </summary>
         public Configuration Configuration { get; set; }
 
         /// <summary>
         /// Gets or sets the ExceptionFactory
-        /// Provides a factory method hook for the creation of exceptions...
+        /// Provides a factory method hook for the creation of exceptions....
         /// </summary>
         public ExceptionFactory ExceptionFactory
         {

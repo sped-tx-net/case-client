@@ -1,6 +1,6 @@
-// -----------------------------------------------------------------------
+﻿// -----------------------------------------------------------------------
 // <copyright file="CFItem.cs" company="sped-tx.net">
-//     Copyright � 2021 sped-tx.net. All rights reserved.
+//     Copyright © 2021 sped-tx.net. All rights reserved.
 // </copyright>
 // -----------------------------------------------------------------------
 
@@ -42,7 +42,7 @@ namespace Ims.Case.Model
         /// <param name="statusStartDate">The statusStartDate<see cref="DateTime?"/>.</param>
         /// <param name="statusEndDate">The statusEndDate<see cref="DateTime?"/>.</param>
         /// <param name="lastChangeDateTime">The lastChangeDateTime<see cref="DateTime?"/>.</param>
-        public CFItem(LinkURI cFDocumentURI = default(LinkURI), string identifier = default(string), string fullStatement = default(string), string alternativeLabel = default(string), string cFItemType = default(string), string uri = default(string), string humanCodingScheme = default(string), string listEnumeration = default(string), string abbreviatedStatement = default(string), List<string> conceptKeywords = default(List<string>), LinkURI conceptKeywordsURI = default(LinkURI), string notes = default(string), string language = default(string), List<string> educationLevel = default(List<string>), LinkURI cFItemTypeURI = default(LinkURI), LinkURI licenseURI = default(LinkURI), DateTime? statusStartDate = default(DateTime?), DateTime? statusEndDate = default(DateTime?), DateTime? lastChangeDateTime = default(DateTime?)) : base(identifier, fullStatement, alternativeLabel, cFItemType, uri, humanCodingScheme, listEnumeration, abbreviatedStatement, conceptKeywords, conceptKeywordsURI, notes, language, educationLevel, cFItemTypeURI, licenseURI, statusStartDate, statusEndDate, lastChangeDateTime)
+        public CFItem(LinkURI cFDocumentURI = default(LinkURI), string identifier = default(string), string fullStatement = default(string), string alternativeLabel = default(string), string cFItemType = default(string), string uri = default(string), string humanCodingScheme = default(string), string listEnumeration = default(string), string abbreviatedStatement = default(string), List<string> conceptKeywords = default(List<string>), LinkURI conceptKeywordsURI = default(LinkURI), string notes = default(string), string language = default(string), string educationLevel = default, LinkURI cFItemTypeURI = default(LinkURI), LinkURI licenseURI = default(LinkURI), DateTime? statusStartDate = default(DateTime?), DateTime? statusEndDate = default(DateTime?), DateTime? lastChangeDateTime = default(DateTime?)) : base(identifier, fullStatement, alternativeLabel, cFItemType, uri, humanCodingScheme, listEnumeration, abbreviatedStatement, conceptKeywords, conceptKeywordsURI, notes, language, educationLevel, cFItemTypeURI, licenseURI, statusStartDate, statusEndDate, lastChangeDateTime)
         {
             // to ensure "cFDocumentURI" is required (not null)
             if (cFDocumentURI == null)
@@ -57,7 +57,7 @@ namespace Ims.Case.Model
 
         /// <summary>
         /// Gets or sets the CFDocumentURI
-        /// Gets or Sets CFDocumentURI.
+        /// Gets or Sets CFDocumentURI..
         /// </summary>
         [DataMember(Name = "CFDocumentURI", EmitDefaultValue = false)]
         public LinkURI CFDocumentURI { get; set; }

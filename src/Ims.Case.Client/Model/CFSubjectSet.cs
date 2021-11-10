@@ -1,6 +1,6 @@
-// -----------------------------------------------------------------------
+﻿// -----------------------------------------------------------------------
 // <copyright file="CFSubjectSet.cs" company="sped-tx.net">
-//     Copyright � 2021 sped-tx.net. All rights reserved.
+//     Copyright © 2021 sped-tx.net. All rights reserved.
 // </copyright>
 // -----------------------------------------------------------------------
 

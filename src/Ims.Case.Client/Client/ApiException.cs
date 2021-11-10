@@ -43,13 +43,13 @@ namespace Ims.Case.Client
         }
 
         /// <summary>
-        /// Gets or sets the error code (HTTP status code)..
+        /// Gets or sets the error code (HTTP status code)...
         /// </summary>
         public int ErrorCode { get; set; }
 
         /// <summary>
         /// Gets the ErrorContent
-        /// Gets or sets the error content (body json object)..
+        /// Gets or sets the error content (body json object)...
         /// </summary>
         public dynamic ErrorContent { get; private set; }
     }

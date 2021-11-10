@@ -1,6 +1,6 @@
-// -----------------------------------------------------------------------
+﻿// -----------------------------------------------------------------------
 // <copyright file="IReadableConfiguration.cs" company="sped-tx.net">
-//     Copyright � 2021 sped-tx.net. All rights reserved.
+//     Copyright © 2021 sped-tx.net. All rights reserved.
 // </copyright>
 // -----------------------------------------------------------------------
 
@@ -14,32 +14,32 @@ namespace Ims.Case.Client
     public interface IReadableConfiguration
     {
         /// <summary>
-        /// Gets the access token..
+        /// Gets the access token...
         /// </summary>
         string AccessToken { get; }
 
         /// <summary>
-        /// Gets the API key..
+        /// Gets the API key...
         /// </summary>
         IDictionary<string, string> ApiKey { get; }
 
         /// <summary>
-        /// Gets the API key prefix..
+        /// Gets the API key prefix...
         /// </summary>
         IDictionary<string, string> ApiKeyPrefix { get; }
 
         /// <summary>
-        /// Gets the base path..
+        /// Gets the base path...
         /// </summary>
         string BasePath { get; }
 
         /// <summary>
-        /// Gets the date time format..
+        /// Gets the date time format...
         /// </summary>
         string DateTimeFormat { get; }
 
         /// <summary>
-        /// Gets the default header..
+        /// Gets the default header...
         /// </summary>
         IDictionary<string, string> DefaultHeader { get; }
 
@@ -49,17 +49,17 @@ namespace Ims.Case.Client
         string Password { get; }
 
         /// <summary>
-        /// Gets the temp folder path..
+        /// Gets the temp folder path...
         /// </summary>
         string TempFolderPath { get; }
 
         /// <summary>
-        /// Gets the HTTP connection timeout (in milliseconds).
+        /// Gets the HTTP connection timeout (in milliseconds)..
         /// </summary>
         int Timeout { get; }
 
         /// <summary>
-        /// Gets the user agent..
+        /// Gets the user agent...
         /// </summary>
         string UserAgent { get; }
 

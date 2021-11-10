@@ -39,35 +39,35 @@ namespace Ims.Case.Model
 
         /// <summary>
         /// Gets or sets the CFAssociationGroupings
-        /// Gets or Sets CFAssociationGroupings.
+        /// Gets or Sets CFAssociationGroupings..
         /// </summary>
         [DataMember(Name = "CFAssociationGroupings", EmitDefaultValue = false)]
         public List<CFAssociationGrouping> CFAssociationGroupings { get; set; }
 
         /// <summary>
         /// Gets or sets the CFConcepts
-        /// Gets or Sets CFConcepts.
+        /// Gets or Sets CFConcepts..
         /// </summary>
         [DataMember(Name = "CFConcepts", EmitDefaultValue = false)]
         public List<CFConcept> CFConcepts { get; set; }
 
         /// <summary>
         /// Gets or sets the CFItemTypes
-        /// Gets or Sets CFItemTypes.
+        /// Gets or Sets CFItemTypes..
         /// </summary>
         [DataMember(Name = "CFItemTypes", EmitDefaultValue = false)]
         public List<CFItemType> CFItemTypes { get; set; }
 
         /// <summary>
         /// Gets or sets the CFLicenses
-        /// Gets or Sets CFLicenses.
+        /// Gets or Sets CFLicenses..
         /// </summary>
         [DataMember(Name = "CFLicenses", EmitDefaultValue = false)]
         public List<CFLicense> CFLicenses { get; set; }
 
         /// <summary>
         /// Gets or sets the CFSubjects
-        /// Gets or Sets CFSubjects.
+        /// Gets or Sets CFSubjects..
         /// </summary>
         [DataMember(Name = "CFSubjects", EmitDefaultValue = false)]
         public List<CFSubject> CFSubjects { get; set; }

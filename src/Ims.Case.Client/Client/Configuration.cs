@@ -17,7 +17,7 @@ namespace Ims.Case.Client
     public class Configuration : IReadableConfiguration
     {
         /// <summary>
-        /// Default creation of exceptions for a given method name and response object..
+        /// Default creation of exceptions for a given method name and response object...
         /// </summary>
         public static readonly ExceptionFactory DefaultExceptionFactory = (methodName, response) =>
         {
@@ -48,11 +48,11 @@ namespace Ims.Case.Client
         /// </summary>
         private ApiClient _apiClient = null;
         /// <summary>
-        /// Gets or sets the API key based on the authentication name...
+        /// Gets or sets the API key based on the authentication name....
         /// </summary>
         private IDictionary<string, string> _apiKey = null;
         /// <summary>
-        /// Gets or sets the prefix (e.g. Token) of the API key based on the authentication name...
+        /// Gets or sets the prefix (e.g. Token) of the API key based on the authentication name....
         /// </summary>
         private IDictionary<string, string> _apiKeyPrefix = null;
         /// <summary>
@@ -177,7 +177,7 @@ namespace Ims.Case.Client
         }
 
         /// <summary>
-        /// Gets or sets the default Configuration...
+        /// Gets or sets the default Configuration....
         /// </summary>
         public static Configuration Default
         {
@@ -192,13 +192,13 @@ namespace Ims.Case.Client
         }
 
         /// <summary>
-        /// Gets or sets the access token for OAuth2 authentication...
+        /// Gets or sets the access token for OAuth2 authentication....
         /// </summary>
         public virtual string AccessToken { get; set; }
 
         /// <summary>
         /// Gets the ApiClient
-        /// Gets an instance of an ApiClient for this configuration..
+        /// Gets an instance of an ApiClient for this configuration...
         /// </summary>
         public virtual ApiClient ApiClient
         {
@@ -210,7 +210,7 @@ namespace Ims.Case.Client
         }
 
         /// <summary>
-        /// Gets or sets the API key based on the authentication name...
+        /// Gets or sets the API key based on the authentication name....
         /// </summary>
         public virtual IDictionary<string, string> ApiKey
         {
@@ -226,7 +226,7 @@ namespace Ims.Case.Client
         }
 
         /// <summary>
-        /// Gets or sets the prefix (e.g. Token) of the API key based on the authentication name...
+        /// Gets or sets the prefix (e.g. Token) of the API key based on the authentication name....
         /// </summary>
         public virtual IDictionary<string, string> ApiKeyPrefix
         {
@@ -242,7 +242,7 @@ namespace Ims.Case.Client
         }
 
         /// <summary>
-        /// Gets or sets the base path for API access...
+        /// Gets or sets the base path for API access....
         /// </summary>
         public virtual string BasePath
         {
@@ -263,7 +263,7 @@ namespace Ims.Case.Client
         /// By default, it's set to ISO 8601 - "o", for others see:
         /// https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx
         /// and https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx
-        /// No validation is done to ensure that the string you're providing is valid..
+        /// No validation is done to ensure that the string you're providing is valid...
         /// </summary>
         public virtual string DateTimeFormat
         {
@@ -284,17 +284,17 @@ namespace Ims.Case.Client
         }
 
         /// <summary>
-        /// Gets or sets the default header...
+        /// Gets or sets the default header....
         /// </summary>
         public virtual IDictionary<string, string> DefaultHeader { get; set; }
 
         /// <summary>
-        /// Gets or sets the password (HTTP basic authentication)...
+        /// Gets or sets the password (HTTP basic authentication)....
         /// </summary>
         public virtual string Password { get; set; }
 
         /// <summary>
-        /// Gets or sets the temporary folder path to store the files downloaded from the server...
+        /// Gets or sets the temporary folder path to store the files downloaded from the server....
         /// </summary>
         public virtual string TempFolderPath
         {
@@ -328,7 +328,7 @@ namespace Ims.Case.Client
         }
 
         /// <summary>
-        /// Gets or sets the HTTP timeout (milliseconds) of ApiClient. Default to 100000 milliseconds...
+        /// Gets or sets the HTTP timeout (milliseconds) of ApiClient. Default to 100000 milliseconds....
         /// </summary>
         public virtual int Timeout
         {
@@ -355,12 +355,12 @@ namespace Ims.Case.Client
         }
 
         /// <summary>
-        /// Gets or sets the HTTP user agent...
+        /// Gets or sets the HTTP user agent....
         /// </summary>
         public virtual string UserAgent { get; set; }
 
         /// <summary>
-        /// Gets or sets the username (HTTP basic authentication)...
+        /// Gets or sets the username (HTTP basic authentication)....
         /// </summary>
         public virtual string Username { get; set; }
 
@@ -435,12 +435,12 @@ namespace Ims.Case.Client
         }
 
         /// <summary>
-        /// Version of the package...
+        /// Version of the package....
         /// </summary>
         public const string Version = "1.0.0";
 
         /// <summary>
-        /// Identifier for ISO 8601 DateTime Format..
+        /// Identifier for ISO 8601 DateTime Format...
         /// </summary>
         public const string ISO8601_DATETIME_FORMAT = "o";
     }

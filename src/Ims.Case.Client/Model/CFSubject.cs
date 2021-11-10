@@ -1,6 +1,6 @@
-// -----------------------------------------------------------------------
+﻿// -----------------------------------------------------------------------
 // <copyright file="CFSubject.cs" company="sped-tx.net">
-//     Copyright � 2021 sped-tx.net. All rights reserved.
+//     Copyright © 2021 sped-tx.net. All rights reserved.
 // </copyright>
 // -----------------------------------------------------------------------
 
@@ -76,7 +76,7 @@ namespace Ims.Case.Model
             {
                 LastChangeDateTime = lastChangeDateTime;
             }
-            Description = description;
+            Description = description ?? title;
         }
 
         /// <summary>

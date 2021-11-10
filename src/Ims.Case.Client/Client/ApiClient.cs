@@ -23,7 +23,7 @@ namespace Ims.Case.Client
     public partial class ApiClient
     {
         /// <summary>
-        /// Gets or sets the default API client for making HTTP calls...
+        /// Gets or sets the default API client for making HTTP calls....
         /// </summary>
         [Obsolete("ApiClient.Default is deprecated, please use 'Configuration.Default.ApiClient' instead.")]
         public static ApiClient Default;
@@ -69,7 +69,7 @@ namespace Ims.Case.Client
 
         /// <summary>
         /// Gets or sets the Configuration
-        /// Gets or sets an instance of the IReadableConfiguration...
+        /// Gets or sets an instance of the IReadableConfiguration....
         /// </summary>
         public IReadableConfiguration Configuration { get; set; }
 
@@ -473,7 +473,6 @@ namespace Ims.Case.Client
             }
         }
 
-
         /// <summary>
         /// The PrepareRequest.
         /// </summary>
@@ -514,7 +513,7 @@ namespace Ims.Case.Client
             // add file parameter, if any
             foreach (var param in fileParams)
             {
-                request.AddFile(param.Value.Name,  param.Value.FileName, param.Value.ContentType);
+                request.AddFile(param.Value.Name, param.Value.FileName, param.Value.ContentType);
             }
 
             if (postBody != null) // http body (model or byte[]) parameter

@@ -1,6 +1,6 @@
-// -----------------------------------------------------------------------
+﻿// -----------------------------------------------------------------------
 // <copyright file="CFItemType.cs" company="sped-tx.net">
-//     Copyright � 2021 sped-tx.net. All rights reserved.
+//     Copyright © 2021 sped-tx.net. All rights reserved.
 // </copyright>
 // -----------------------------------------------------------------------
 
@@ -62,7 +62,7 @@ namespace Ims.Case.Model
             // to ensure "description" is required (not null)
             if (description == null)
             {
-                throw new InvalidDataException("description is a required property for CFItemType and cannot be null");
+                Description = title;
             }
             else
             {
@@ -91,49 +91,49 @@ namespace Ims.Case.Model
 
         /// <summary>
         /// Gets or sets the Description
-        /// Model Primitive Datatype &#x3D; String.
+        /// Model Primitive Datatype &#x3D; String..
         /// </summary>
         [DataMember(Name = "description", EmitDefaultValue = false)]
         public string Description { get; set; }
 
         /// <summary>
         /// Gets or sets the HierarchyCode
-        /// Model Primitive Datatype &#x3D; NormalizedString.
+        /// Model Primitive Datatype &#x3D; NormalizedString..
         /// </summary>
         [DataMember(Name = "hierarchyCode", EmitDefaultValue = false)]
         public string HierarchyCode { get; set; }
 
         /// <summary>
         /// Gets or sets the Identifier
-        /// Gets or Sets Identifier.
+        /// Gets or Sets Identifier..
         /// </summary>
         [DataMember(Name = "identifier", EmitDefaultValue = false)]
         public string Identifier { get; set; }
 
         /// <summary>
         /// Gets or sets the LastChangeDateTime
-        /// Model Primitive Datatype &#x3D; DateTime.
+        /// Model Primitive Datatype &#x3D; DateTime..
         /// </summary>
         [DataMember(Name = "lastChangeDateTime", EmitDefaultValue = false)]
         public DateTime? LastChangeDateTime { get; set; }
 
         /// <summary>
         /// Gets or sets the Title
-        /// Model Primitive Datatype &#x3D; NormalizedString.
+        /// Model Primitive Datatype &#x3D; NormalizedString..
         /// </summary>
         [DataMember(Name = "title", EmitDefaultValue = false)]
         public string Title { get; set; }
 
         /// <summary>
         /// Gets or sets the TypeCode
-        /// Model Primitive Datatype &#x3D; NormalizedString.
+        /// Model Primitive Datatype &#x3D; NormalizedString..
         /// </summary>
         [DataMember(Name = "typeCode", EmitDefaultValue = false)]
         public string TypeCode { get; set; }
 
         /// <summary>
         /// Gets or sets the Uri
-        /// Model Primitive Datatype &#x3D; AnyURI.
+        /// Model Primitive Datatype &#x3D; AnyURI..
         /// </summary>
         [DataMember(Name = "uri", EmitDefaultValue = false)]
         public string Uri { get; set; }

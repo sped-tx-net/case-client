@@ -48,35 +48,35 @@ namespace Ims.Case.Model
 
         /// <summary>
         /// Gets or sets the CFAssociations
-        /// Gets or Sets CFAssociations.
+        /// Gets or Sets CFAssociations..
         /// </summary>
         [DataMember(Name = "CFAssociations", EmitDefaultValue = false)]
         public List<CFPckgAssociation> CFAssociations { get; set; }
 
         /// <summary>
         /// Gets or sets the CFDefinitions
-        /// Gets or Sets CFDefinitions.
+        /// Gets or Sets CFDefinitions..
         /// </summary>
         [DataMember(Name = "CFDefinitions", EmitDefaultValue = false)]
         public CFDefinition CFDefinitions { get; set; }
 
         /// <summary>
         /// Gets or sets the CFDocument
-        /// Gets or Sets CFDocument.
+        /// Gets or Sets CFDocument..
         /// </summary>
         [DataMember(Name = "CFDocument", EmitDefaultValue = false)]
         public CFPckgDocument CFDocument { get; set; }
 
         /// <summary>
         /// Gets or sets the CFItems
-        /// Gets or Sets CFItems.
+        /// Gets or Sets CFItems..
         /// </summary>
         [DataMember(Name = "CFItems", EmitDefaultValue = false)]
         public List<CFPckgItem> CFItems { get; set; }
 
         /// <summary>
         /// Gets or sets the CFRubrics
-        /// Gets or Sets CFRubrics.
+        /// Gets or Sets CFRubrics..
         /// </summary>
         [DataMember(Name = "CFRubrics", EmitDefaultValue = false)]
         public List<CFRubric> CFRubrics { get; set; }

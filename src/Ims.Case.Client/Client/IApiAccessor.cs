@@ -12,13 +12,13 @@ namespace Ims.Case.Client
     public interface IApiAccessor
     {
         /// <summary>
-        /// Gets or sets the configuration object.
+        /// Gets or sets the configuration object..
         /// </summary>
         Configuration Configuration { get; set; }
 
         /// <summary>
         /// Gets or sets the ExceptionFactory
-        /// Provides a factory method hook for the creation of exceptions..
+        /// Provides a factory method hook for the creation of exceptions...
         /// </summary>
         ExceptionFactory ExceptionFactory { get; set; }
 

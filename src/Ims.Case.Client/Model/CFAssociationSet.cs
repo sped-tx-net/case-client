@@ -50,14 +50,14 @@ namespace Ims.Case.Model
 
         /// <summary>
         /// Gets or sets the CFAssociations
-        /// Gets or Sets CFAssociations.
+        /// Gets or Sets CFAssociations..
         /// </summary>
         [DataMember(Name = "CFAssociations", EmitDefaultValue = false)]
         public List<CFPckgAssociation> CFAssociations { get; set; }
 
         /// <summary>
         /// Gets or sets the CFItem
-        /// Gets or Sets CFItem.
+        /// Gets or Sets CFItem..
         /// </summary>
         [DataMember(Name = "CFItem", EmitDefaultValue = false)]
         public CFItem CFItem { get; set; }

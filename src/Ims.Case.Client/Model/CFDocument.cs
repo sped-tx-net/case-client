@@ -56,7 +56,7 @@ namespace Ims.Case.Model
 
         /// <summary>
         /// Gets or sets the CFPackageURI
-        /// Gets or Sets CFPackageURI.
+        /// Gets or Sets CFPackageURI..
         /// </summary>
         [DataMember(Name = "CFPackageURI", EmitDefaultValue = false)]
         public LinkURI CFPackageURI { get; set; }

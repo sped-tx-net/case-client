@@ -14,7 +14,6 @@ using RestSharp;
 
 namespace Ims.Case.Api
 {
-
     /// <summary>
     /// Represents a collection of functions to interact with the API endpoints.
     /// </summary>
@@ -60,13 +59,13 @@ namespace Ims.Case.Api
         }
 
         /// <summary>
-        /// Gets or sets the configuration object..
+        /// Gets or sets the configuration object...
         /// </summary>
         public Configuration Configuration { get; set; }
 
         /// <summary>
         /// Gets or sets the ExceptionFactory
-        /// Provides a factory method hook for the creation of exceptions...
+        /// Provides a factory method hook for the creation of exceptions....
         /// </summary>
         public ExceptionFactory ExceptionFactory
         {
@@ -236,6 +235,5 @@ namespace Ims.Case.Api
                 localVarResponse.Headers.ToDictionary(x => x.Name, x => string.Join(",", x.Value)),
                 (CFPackage)Configuration.ApiClient.Deserialize(localVarResponse, typeof(CFPackage)));
         }
-
     }
 }

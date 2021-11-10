@@ -38,7 +38,7 @@ namespace Ims.Case.Model
 
         /// <summary>
         /// Gets or sets the CFDocumentURI
-        /// Gets or Sets CFDocumentURI.
+        /// Gets or Sets CFDocumentURI..
         /// </summary>
         [DataMember(Name = "CFDocumentURI", EmitDefaultValue = false)]
         public LinkURI CFDocumentURI { get; set; }

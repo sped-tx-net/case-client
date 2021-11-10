@@ -1,6 +1,6 @@
-// -----------------------------------------------------------------------
+﻿// -----------------------------------------------------------------------
 // <copyright file="CFPckgItem.cs" company="sped-tx.net">
-//     Copyright � 2021 sped-tx.net. All rights reserved.
+//     Copyright © 2021 sped-tx.net. All rights reserved.
 // </copyright>
 // -----------------------------------------------------------------------
 
@@ -43,7 +43,7 @@ namespace Ims.Case.Model
         /// <param name="statusStartDate">Model Primitive Datatype &#x3D; Date.</param>
         /// <param name="statusEndDate">Model Primitive Datatype &#x3D; Date.</param>
         /// <param name="lastChangeDateTime">Model Primitive Datatype &#x3D; DateTime (required).</param>
-        public CFPckgItem(string identifier = default(string), string fullStatement = default(string), string alternativeLabel = default(string), string cFItemType = default(string), string uri = default(string), string humanCodingScheme = default(string), string listEnumeration = default(string), string abbreviatedStatement = default(string), List<string> conceptKeywords = default(List<string>), LinkURI conceptKeywordsURI = default(LinkURI), string notes = default(string), string language = default(string), List<string> educationLevel = default(List<string>), LinkURI cFItemTypeURI = default(LinkURI), LinkURI licenseURI = default(LinkURI), DateTime? statusStartDate = default(DateTime?), DateTime? statusEndDate = default(DateTime?), DateTime? lastChangeDateTime = default(DateTime?))
+        public CFPckgItem(string identifier = default(string), string fullStatement = default(string), string alternativeLabel = default(string), string cFItemType = default(string), string uri = default(string), string humanCodingScheme = default(string), string listEnumeration = default(string), string abbreviatedStatement = default(string), List<string> conceptKeywords = default(List<string>), LinkURI conceptKeywordsURI = default(LinkURI), string notes = default(string), string language = default(string), string educationLevel = default, LinkURI cFItemTypeURI = default(LinkURI), LinkURI licenseURI = default(LinkURI), DateTime? statusStartDate = default(DateTime?), DateTime? statusEndDate = default(DateTime?), DateTime? lastChangeDateTime = default(DateTime?))
         {
             // to ensure "identifier" is required (not null)
             if (identifier == null)
@@ -144,7 +144,7 @@ namespace Ims.Case.Model
         /// Model Primitive Datatype &#x3D; NormalizedString.
         /// </summary>
         [DataMember(Name = "educationLevel", EmitDefaultValue = false)]
-        public List<string> EducationLevel { get; set; }
+        public string EducationLevel { get; set; }
 
         /// <summary>
         /// Gets or sets the FullStatement

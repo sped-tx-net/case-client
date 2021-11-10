@@ -40,7 +40,7 @@ namespace Ims.Case.Model
 
         /// <summary>
         /// Gets or sets the CFDocuments
-        /// Gets or Sets CFDocuments.
+        /// Gets or Sets CFDocuments..
         /// </summary>
         [DataMember(Name = "CFDocuments", EmitDefaultValue = false)]
         public List<CFDocument> CFDocuments { get; set; }

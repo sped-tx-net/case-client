@@ -83,49 +83,49 @@ namespace Ims.Case.Model
 
         /// <summary>
         /// Gets or sets the Description
-        /// Model Primitive Datatype &#x3D; String.
+        /// Model Primitive Datatype &#x3D; String..
         /// </summary>
         [DataMember(Name = "description", EmitDefaultValue = false)]
         public string Description { get; set; }
 
         /// <summary>
         /// Gets or sets the HierarchyCode
-        /// Model Primitive Datatype &#x3D; NormalizedString.
+        /// Model Primitive Datatype &#x3D; NormalizedString..
         /// </summary>
         [DataMember(Name = "hierarchyCode", EmitDefaultValue = false)]
         public string HierarchyCode { get; set; }
 
         /// <summary>
         /// Gets or sets the Identifier
-        /// Gets or Sets Identifier.
+        /// Gets or Sets Identifier..
         /// </summary>
         [DataMember(Name = "identifier", EmitDefaultValue = false)]
         public string Identifier { get; set; }
 
         /// <summary>
         /// Gets or sets the Keywords
-        /// Model Primitive Datatype &#x3D; NormalizedString.
+        /// Model Primitive Datatype &#x3D; NormalizedString..
         /// </summary>
         [DataMember(Name = "keywords", EmitDefaultValue = false)]
         public string Keywords { get; set; }
 
         /// <summary>
         /// Gets or sets the LastChangeDateTime
-        /// Model Primitive Datatype &#x3D; DateTime.
+        /// Model Primitive Datatype &#x3D; DateTime..
         /// </summary>
         [DataMember(Name = "lastChangeDateTime", EmitDefaultValue = false)]
         public DateTime? LastChangeDateTime { get; set; }
 
         /// <summary>
         /// Gets or sets the Title
-        /// Model Primitive Datatype &#x3D; NormalizedString.
+        /// Model Primitive Datatype &#x3D; NormalizedString..
         /// </summary>
         [DataMember(Name = "title", EmitDefaultValue = false)]
         public string Title { get; set; }
 
         /// <summary>
         /// Gets or sets the Uri
-        /// Model Primitive Datatype &#x3D; AnyURI.
+        /// Model Primitive Datatype &#x3D; AnyURI..
         /// </summary>
         [DataMember(Name = "uri", EmitDefaultValue = false)]
         public string Uri { get; set; }

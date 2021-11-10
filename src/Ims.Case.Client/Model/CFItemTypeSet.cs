@@ -40,7 +40,7 @@ namespace Ims.Case.Model
 
         /// <summary>
         /// Gets or sets the CFItemTypes
-        /// Gets or Sets CFItemTypes.
+        /// Gets or Sets CFItemTypes..
         /// </summary>
         [DataMember(Name = "CFItemTypes", EmitDefaultValue = false)]
         public List<CFItemType> CFItemTypes { get; set; }
